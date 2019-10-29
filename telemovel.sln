@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "telemovel", "telemovel\telemovel.csproj", "{EDE83521-66A6-4662-A36D-09CEF0F74902}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDE83521-66A6-4662-A36D-09CEF0F74902}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDE83521-66A6-4662-A36D-09CEF0F74902}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDE83521-66A6-4662-A36D-09CEF0F74902}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDE83521-66A6-4662-A36D-09CEF0F74902}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {47AE4F90-515A-4419-9271-BCC1452C9766}
+	EndGlobalSection
+EndGlobal
