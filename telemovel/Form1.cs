@@ -30,20 +30,21 @@ namespace telemovel
         private void Button1_Click(object sender, EventArgs e)
         {
             int valor = 0;
+            int hi = 0;
             switch (((Button)sender).Name)
             {
-                case "button1": valor = 1; break;
-                case "button2": valor = 2; break;
-                case "button3": valor = 3; break;
-                case "button4": valor = 4; break;
-                case "button5": valor = 5; break;
-                case "button6": valor = 6; break;
-                case "button7": valor = 7; break;
-                case "button8": valor = 8; break;
-                case "button9": valor = 9; break;
-                case "button11": valor = 0; break;
+                case "button1": valor = 1; hi = 1209; break;
+                case "button2": valor = 2; hi = 1336; break;
+                case "button3": valor = 3; hi = 1477; break;
+                case "button4": valor = 4; hi = 1209; break;
+                case "button5": valor = 5; hi = 1336; break;
+                case "button6": valor = 6; hi = 1477; break;
+                case "button7": valor = 7; hi = 1209; break;
+                case "button8": valor = 8; hi = 1336; break;
+                case "button9": valor = 9; hi = 1477; break;
+                case "button11": valor = 0; hi = 1336; break;
             }
-            Console.Beep(261 + valor*53,200);
+            Console.Beep(hi, 200);
             if (numero.ToString().Length < 9)
                 numero = numero * 10 + valor;
             mostra();
