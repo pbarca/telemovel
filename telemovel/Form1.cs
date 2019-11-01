@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Media;
 using System.Windows.Forms;
 
 namespace telemovel
@@ -28,7 +27,7 @@ namespace telemovel
             int lo = 0;
             switch (((Button)sender).Name)
             {
-                case "button1": valor = 1; hi = 1209; lo = 697;  break;
+                case "button1": valor = 1; hi = 1209; lo = 697; break;
                 case "button2": valor = 2; hi = 1336; lo = 697; break;
                 case "button3": valor = 3; hi = 1477; lo = 697; break;
                 case "button4": valor = 4; hi = 1209; lo = 770; break;
