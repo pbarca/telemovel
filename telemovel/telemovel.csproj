@@ -83,5 +83,8 @@
   <ItemGroup>
     <None Include="Resources\telele.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tones.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

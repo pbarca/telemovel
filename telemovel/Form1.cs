@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Media;
 using System.Windows.Forms;
 
 namespace telemovel
@@ -51,5 +52,11 @@ namespace telemovel
             mostra();
         }
 
-     }
+        private void button10_Click(object sender, EventArgs e)
+        {
+            System.IO.Stream str = Properties.Resources.tones;
+            System.Media.SoundPlayer snd = new System.Media.SoundPlayer(str);
+            snd.Play();
+        }
+    }
 }
