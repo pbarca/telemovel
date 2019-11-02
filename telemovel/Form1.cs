@@ -1,4 +1,4 @@
-﻿// Calculadora com Programação Orientada a Objetos
+﻿// Telemóvel com Programação Orientada a Objetos
 
 using System;
 using System.Windows.Forms;
